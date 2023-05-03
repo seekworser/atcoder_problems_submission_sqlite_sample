@@ -1,6 +1,5 @@
 import sqlite3, csv
 
-
 con = sqlite3.connect("submissions.db")
 cursor = con.cursor()
 cursor.execute("""
